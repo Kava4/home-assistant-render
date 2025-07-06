@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: home-assistant
+    env: docker
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
+    plan: free
+    ports:
+      - port: 8123

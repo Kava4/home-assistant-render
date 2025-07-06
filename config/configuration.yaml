@@ -1,0 +1,21 @@
+
+# config/configuration.yaml
+homeassistant:
+  name: Home
+  latitude: 40.6401
+  longitude: 22.9444
+  elevation: 30
+  unit_system: metric
+  currency: EUR
+  external_url: "https://home-assistant-hhmy.onrender.com"
+  allowlist_external_dirs:
+    - "/config/www"
+
+# Example integration (πχ. logger για debug)
+logger:
+  default: info
+  http:
+  use_x_forwarded_for: true
+  trusted_proxies:
+    - 127.0.0.1
+    - ::1
