@@ -3,7 +3,8 @@ services:
     name: home-assistant
     env: docker
     plan: free
+    dockerfilePath: ./Dockerfile
+    envVars:
+      - key: TZ
+        value: Europe/Athens
     autoDeploy: true
-    ports:
-      - port: 80
-        protocol: http
