@@ -9,7 +9,7 @@ homeassistant:
   currency: EUR
   external_url: "https://home-assistant-hhmy.onrender.com"
   allowlist_external_dirs:
-    - "/config/www"
+    - "/config"
 
 # Example integration (πχ. logger για debug)
 logger:
